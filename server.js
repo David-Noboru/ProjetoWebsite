@@ -16,6 +16,4 @@ app.get('/sobre', (req, res) => {
     res.send("Um simples tutorial de NodeJS")
   })
 
-
-
-  hdjdjjjufyruklfjxkj kfhgufh
+  
