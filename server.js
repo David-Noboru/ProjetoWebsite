@@ -1,15 +1,15 @@
-const express = require('express');
-
-const app = express();
+const express = require('express')
+const app = express()
 
 app.get('/', (req, res) => {
-  res.send('Olá mundo. <a href="/sobre">Ir para Sobre</a>');
-});
+    // envia o arquivo da página principal
+    res.sendFile(__dirname + '/views/index.html')
+})
 
 app.get('/sobre', (req, res) => {
-  res.send('Um simples tutorial de NodeJS <a  href=/>Voltar</a>');
-});
+    res.send("Um simples tutorial de NodeJS. <a href='/'>Voltar</a>")
+})
 
 app.listen(3000, () => {
-  console.log('Server online');
-});
+  console.log('Server online')
+})
