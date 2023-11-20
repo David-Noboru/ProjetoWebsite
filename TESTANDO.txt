@@ -2,4 +2,4 @@ do pc biblioteca --> pc lab
 Tudo deu certo!
 
 pc lab --> pc biblioteca
-De novo de certo!
+De novo deu certo!
